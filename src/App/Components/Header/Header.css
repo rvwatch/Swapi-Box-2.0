@@ -12,12 +12,6 @@
   -webkit-text-stroke-color: feda4a;
 }
 
-.favs {
-  top: 0;
-  right: 0;
-  position: absolute;
-}
-
 .main-nav {
   position: absolute;
   min-height: 55px;
@@ -31,18 +25,29 @@
 
 .main-nav li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .main-nav a {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .main-nav a:hover,
 .main-nav a.active {
   color: #feda4a;
+  font-weight: normal;
+}
+
+.main-nav nav {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+nav ul {
+  text-align: right;
 }
 
 header {
@@ -59,9 +64,4 @@ nav a {
   display: block;
   text-decoration: none;
   color: white;
-}
-
-.active {
-  text-decoration: underline;
-  font-weight: bold;
 }

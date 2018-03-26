@@ -44,80 +44,64 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          favorites cards
-</h1>,
-        Array [
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": "Tatooine",
-                                    "id": 1,
-                                    "name": "Luke Skywalker",
-                                    "population": 200000,
-                                    "species": "Human",
-                                  }
-            }
-            homeworld="Tatooine"
-            id={1}
-            isFav={true}
-            name="Luke Skywalker"
-            population={200000}
-            species="Human"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Tatooine",
+                              "id": 1,
+                              "name": "Luke Skywalker",
+                              "population": 200000,
+                              "species": "Human",
+                            }
+          }
+          homeworld="Tatooine"
+          id={1}
+          isFav={true}
+          name="Luke Skywalker"
+          population={200000}
+          species="Human"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": "Tatooine",
-                                    "id": 2,
-                                    "name": "Luke Skywalker",
-                                    "population": 200000,
-                                    "species": "Human",
-                                  }
-            }
-            homeworld="Tatooine"
-            id={2}
-            isFav={true}
-            name="Luke Skywalker"
-            population={200000}
-            species="Human"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Tatooine",
+                              "id": 2,
+                              "name": "Luke Skywalker",
+                              "population": 200000,
+                              "species": "Human",
+                            }
+          }
+          homeworld="Tatooine"
+          id={2}
+          isFav={true}
+          name="Luke Skywalker"
+          population={200000}
+          species="Human"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": "Tatooine",
-                                    "id": 3,
-                                    "name": "Luke Skywalker",
-                                    "population": 200000,
-                                    "species": "Human",
-                                  }
-            }
-            homeworld="Tatooine"
-            id={3}
-            isFav={true}
-            name="Luke Skywalker"
-            population={200000}
-            species="Human"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Tatooine",
+                              "id": 3,
+                              "name": "Luke Skywalker",
+                              "population": 200000,
+                              "species": "Human",
+                            }
+          }
+          homeworld="Tatooine"
+          id={3}
+          isFav={true}
+          name="Luke Skywalker"
+          population={200000}
+          species="Human"
+          toggleFavorites={undefined}
 />,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "favorites cards",
-        },
-        "ref": null,
-        "rendered": "favorites cards",
-        "type": "h1",
-      },
       Object {
         "instance": null,
         "key": "Luke Skywalker0",
@@ -200,80 +184,64 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            favorites cards
-</h1>,
-          Array [
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": "Tatooine",
-                                          "id": 1,
-                                          "name": "Luke Skywalker",
-                                          "population": 200000,
-                                          "species": "Human",
-                                        }
-              }
-              homeworld="Tatooine"
-              id={1}
-              isFav={true}
-              name="Luke Skywalker"
-              population={200000}
-              species="Human"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Tatooine",
+                                    "id": 1,
+                                    "name": "Luke Skywalker",
+                                    "population": 200000,
+                                    "species": "Human",
+                                  }
+            }
+            homeworld="Tatooine"
+            id={1}
+            isFav={true}
+            name="Luke Skywalker"
+            population={200000}
+            species="Human"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": "Tatooine",
-                                          "id": 2,
-                                          "name": "Luke Skywalker",
-                                          "population": 200000,
-                                          "species": "Human",
-                                        }
-              }
-              homeworld="Tatooine"
-              id={2}
-              isFav={true}
-              name="Luke Skywalker"
-              population={200000}
-              species="Human"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Tatooine",
+                                    "id": 2,
+                                    "name": "Luke Skywalker",
+                                    "population": 200000,
+                                    "species": "Human",
+                                  }
+            }
+            homeworld="Tatooine"
+            id={2}
+            isFav={true}
+            name="Luke Skywalker"
+            population={200000}
+            species="Human"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": "Tatooine",
-                                          "id": 3,
-                                          "name": "Luke Skywalker",
-                                          "population": 200000,
-                                          "species": "Human",
-                                        }
-              }
-              homeworld="Tatooine"
-              id={3}
-              isFav={true}
-              name="Luke Skywalker"
-              population={200000}
-              species="Human"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Tatooine",
+                                    "id": 3,
+                                    "name": "Luke Skywalker",
+                                    "population": 200000,
+                                    "species": "Human",
+                                  }
+            }
+            homeworld="Tatooine"
+            id={3}
+            isFav={true}
+            name="Luke Skywalker"
+            population={200000}
+            species="Human"
+            toggleFavorites={undefined}
 />,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "favorites cards",
-          },
-          "ref": null,
-          "rendered": "favorites cards",
-          "type": "h1",
-        },
         Object {
           "instance": null,
           "key": "Luke Skywalker0",

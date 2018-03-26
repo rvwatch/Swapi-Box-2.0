@@ -1,5 +1,5 @@
 import React from 'react';
-import { array, func, string, number, object, bool } from 'prop-types';
+import { array, func, string, object, bool, number } from 'prop-types';
 import './Card.css';
 import FavButton from '../Buttons';
 
@@ -14,6 +14,9 @@ const Card = ({
   vehicle_class,
   model,
   passengers,
+  crew,
+  length,
+  starship_class,
   id,
   toggleFavorites,
   cardData,
@@ -27,7 +30,7 @@ const Card = ({
   return (
     <article className={`card-wrap ${favStatus}`} id={id}>
       <FavButton cardData={cardData} toggleFavorites={toggleFavorites} />
-      <h2>{`Name: ${name}`}</h2>
+      <h2>{name}</h2>
       <p>{homeworld}</p>
       <p>{population}</p>
       <p>{species}</p>
@@ -39,6 +42,10 @@ const Card = ({
       <p>{model}</p>
       <p>{vehicle_class}</p>
       <p>{passengers}</p>
+
+      <p>{starship_class}</p>
+      <p>{crew}</p>
+      <p>{length}</p>
     </article>
   );
 };
@@ -46,14 +53,17 @@ const Card = ({
 Card.propTypes = {
   name: string,
   homeworld: string,
-  population: number,
+  population: string,
   species: string,
   climate: string,
   terrain: string,
   residents: array,
   vehicle_class: string,
   model: string,
-  passengers: number,
+  passengers: string,
+  crew: string,
+  length: string,
+  starship_class: string,
   id: string,
   toggleFavorites: func,
   cardData: object,

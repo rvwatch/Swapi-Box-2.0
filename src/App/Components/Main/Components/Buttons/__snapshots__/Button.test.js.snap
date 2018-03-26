@@ -17,11 +17,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "Favorite",
+      "children": "fav",
       "onClick": [Function],
     },
     "ref": null,
-    "rendered": "Favorite",
+    "rendered": "fav",
     "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -30,11 +30,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Favorite",
+        "children": "fav",
         "onClick": [Function],
       },
       "ref": null,
-      "rendered": "Favorite",
+      "rendered": "fav",
       "type": "button",
     },
   ],

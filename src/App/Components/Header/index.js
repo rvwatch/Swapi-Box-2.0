@@ -5,10 +5,7 @@ import './Header.css';
 const Header = () => (
   <header className="main-nav">
     <NavLink to="/" className="logo">
-      Swapi-box
-    </NavLink>
-    <NavLink to="/favorites" className="favs">
-      Favorites
+      Swapi-box /
     </NavLink>
     <nav>
       <ul>
@@ -23,6 +20,9 @@ const Header = () => (
         </li>
         <li>
           <NavLink to="/starships">Starships</NavLink>
+        </li>
+        <li>
+          <NavLink to="/favorites">Favorites</NavLink>
         </li>
       </ul>
     </nav>

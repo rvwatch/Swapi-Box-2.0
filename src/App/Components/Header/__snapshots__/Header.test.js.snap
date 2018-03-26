@@ -21,16 +21,10 @@ ShallowWrapper {
         <NavLink
           activeClassName="active"
           ariaCurrent="true"
+          className="logo"
           to="/"
 >
-          Swapi-box
-</NavLink>,
-        <NavLink
-          activeClassName="active"
-          ariaCurrent="true"
-          to="/favorites"
->
-          Favorites
+          Swapi-box /
 </NavLink>,
         <nav>
           <ul>
@@ -70,9 +64,19 @@ ShallowWrapper {
                                         Starships
                               </NavLink>
                     </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="active"
+                                        ariaCurrent="true"
+                                        to="/favorites"
+                              >
+                                        Favorites
+                              </NavLink>
+                    </li>
           </ul>
 </nav>,
       ],
+      "className": "main-nav",
     },
     "ref": null,
     "rendered": Array [
@@ -83,25 +87,12 @@ ShallowWrapper {
         "props": Object {
           "activeClassName": "active",
           "ariaCurrent": "true",
-          "children": "Swapi-box",
+          "children": "Swapi-box /",
+          "className": "logo",
           "to": "/",
         },
         "ref": null,
-        "rendered": "Swapi-box",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "active",
-          "ariaCurrent": "true",
-          "children": "Favorites",
-          "to": "/favorites",
-        },
-        "ref": null,
-        "rendered": "Favorites",
+        "rendered": "Swapi-box /",
         "type": [Function],
       },
       Object {
@@ -144,6 +135,15 @@ ShallowWrapper {
                                     to="/starships"
                         >
                                     Starships
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="active"
+                                    ariaCurrent="true"
+                                    to="/favorites"
+                        >
+                                    Favorites
                         </NavLink>
             </li>
 </ul>,
@@ -189,6 +189,15 @@ ShallowWrapper {
                                 to="/starships"
                 >
                                 Starships
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="active"
+                                ariaCurrent="true"
+                                to="/favorites"
+                >
+                                Favorites
                 </NavLink>
 </li>,
             ],
@@ -315,6 +324,36 @@ ShallowWrapper {
               },
               "type": "li",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  ariaCurrent="true"
+                  to="/favorites"
+>
+                  Favorites
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "ariaCurrent": "true",
+                  "children": "Favorites",
+                  "to": "/favorites",
+                },
+                "ref": null,
+                "rendered": "Favorites",
+                "type": [Function],
+              },
+              "type": "li",
+            },
           ],
           "type": "ul",
         },
@@ -333,16 +372,10 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             ariaCurrent="true"
+            className="logo"
             to="/"
 >
-            Swapi-box
-</NavLink>,
-          <NavLink
-            activeClassName="active"
-            ariaCurrent="true"
-            to="/favorites"
->
-            Favorites
+            Swapi-box /
 </NavLink>,
           <nav>
             <ul>
@@ -382,9 +415,19 @@ ShallowWrapper {
                                                 Starships
                                     </NavLink>
                         </li>
+                        <li>
+                                    <NavLink
+                                                activeClassName="active"
+                                                ariaCurrent="true"
+                                                to="/favorites"
+                                    >
+                                                Favorites
+                                    </NavLink>
+                        </li>
             </ul>
 </nav>,
         ],
+        "className": "main-nav",
       },
       "ref": null,
       "rendered": Array [
@@ -395,25 +438,12 @@ ShallowWrapper {
           "props": Object {
             "activeClassName": "active",
             "ariaCurrent": "true",
-            "children": "Swapi-box",
+            "children": "Swapi-box /",
+            "className": "logo",
             "to": "/",
           },
           "ref": null,
-          "rendered": "Swapi-box",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "active",
-            "ariaCurrent": "true",
-            "children": "Favorites",
-            "to": "/favorites",
-          },
-          "ref": null,
-          "rendered": "Favorites",
+          "rendered": "Swapi-box /",
           "type": [Function],
         },
         Object {
@@ -456,6 +486,15 @@ ShallowWrapper {
                                           to="/starships"
                             >
                                           Starships
+                            </NavLink>
+              </li>
+              <li>
+                            <NavLink
+                                          activeClassName="active"
+                                          ariaCurrent="true"
+                                          to="/favorites"
+                            >
+                                          Favorites
                             </NavLink>
               </li>
 </ul>,
@@ -501,6 +540,15 @@ ShallowWrapper {
                                     to="/starships"
                   >
                                     Starships
+                  </NavLink>
+</li>,
+                <li>
+                  <NavLink
+                                    activeClassName="active"
+                                    ariaCurrent="true"
+                                    to="/favorites"
+                  >
+                                    Favorites
                   </NavLink>
 </li>,
               ],
@@ -623,6 +671,36 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "Starships",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    to="/favorites"
+>
+                    Favorites
+</NavLink>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "ariaCurrent": "true",
+                    "children": "Favorites",
+                    "to": "/favorites",
+                  },
+                  "ref": null,
+                  "rendered": "Favorites",
                   "type": [Function],
                 },
                 "type": "li",

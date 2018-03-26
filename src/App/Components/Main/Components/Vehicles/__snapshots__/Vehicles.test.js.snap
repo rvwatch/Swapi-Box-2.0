@@ -34,10 +34,10 @@ ShallowWrapper {
         Array [
             Object {
               "id": "Sand Crawler0",
-              "model": "Digger Crawler",
-              "name": "Sand Crawler",
-              "passengers": "30",
-              "vehicle_class": "wheeled",
+              "model": "Model: Digger Crawler",
+              "name": "Name: Sand Crawler",
+              "passengers": "Passengers: 30",
+              "vehicle_class": "Class: wheeled",
             },
           ]
     }
@@ -55,63 +55,47 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          vehicles cards
-</h1>,
-        Array [
-          <Card
-            cardData={
-                        Object {
-                                    "id": "Sand Crawler0",
-                                    "model": "Digger Crawler",
-                                    "name": "Sand Crawler",
-                                    "passengers": "30",
-                                    "vehicle_class": "wheeled",
-                                  }
-            }
-            id="Sand Crawler0"
-            isFav={false}
-            model="Digger Crawler"
-            name="Sand Crawler"
-            passengers="30"
-            toggleFavorites={undefined}
-            vehicle_class="wheeled"
+        <Card
+          cardData={
+                    Object {
+                              "id": "Sand Crawler0",
+                              "model": "Model: Digger Crawler",
+                              "name": "Name: Sand Crawler",
+                              "passengers": "Passengers: 30",
+                              "vehicle_class": "Class: wheeled",
+                            }
+          }
+          id="Sand Crawler0"
+          isFav={false}
+          model="Model: Digger Crawler"
+          name="Name: Sand Crawler"
+          passengers="Passengers: 30"
+          toggleFavorites={undefined}
+          vehicle_class="Class: wheeled"
 />,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "vehicles cards",
-        },
-        "ref": null,
-        "rendered": "vehicles cards",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": "Sand Crawler0",
+        "key": "Name: Sand Crawler0",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
             "id": "Sand Crawler0",
-            "model": "Digger Crawler",
-            "name": "Sand Crawler",
-            "passengers": "30",
-            "vehicle_class": "wheeled",
+            "model": "Model: Digger Crawler",
+            "name": "Name: Sand Crawler",
+            "passengers": "Passengers: 30",
+            "vehicle_class": "Class: wheeled",
           },
           "id": "Sand Crawler0",
           "isFav": false,
-          "model": "Digger Crawler",
-          "name": "Sand Crawler",
-          "passengers": "30",
+          "model": "Model: Digger Crawler",
+          "name": "Name: Sand Crawler",
+          "passengers": "Passengers: 30",
           "toggleFavorites": undefined,
-          "vehicle_class": "wheeled",
+          "vehicle_class": "Class: wheeled",
         },
         "ref": null,
         "rendered": null,
@@ -127,63 +111,47 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            vehicles cards
-</h1>,
-          Array [
-            <Card
-              cardData={
-                            Object {
-                                          "id": "Sand Crawler0",
-                                          "model": "Digger Crawler",
-                                          "name": "Sand Crawler",
-                                          "passengers": "30",
-                                          "vehicle_class": "wheeled",
-                                        }
-              }
-              id="Sand Crawler0"
-              isFav={false}
-              model="Digger Crawler"
-              name="Sand Crawler"
-              passengers="30"
-              toggleFavorites={undefined}
-              vehicle_class="wheeled"
+          <Card
+            cardData={
+                        Object {
+                                    "id": "Sand Crawler0",
+                                    "model": "Model: Digger Crawler",
+                                    "name": "Name: Sand Crawler",
+                                    "passengers": "Passengers: 30",
+                                    "vehicle_class": "Class: wheeled",
+                                  }
+            }
+            id="Sand Crawler0"
+            isFav={false}
+            model="Model: Digger Crawler"
+            name="Name: Sand Crawler"
+            passengers="Passengers: 30"
+            toggleFavorites={undefined}
+            vehicle_class="Class: wheeled"
 />,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "vehicles cards",
-          },
-          "ref": null,
-          "rendered": "vehicles cards",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": "Sand Crawler0",
+          "key": "Name: Sand Crawler0",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
               "id": "Sand Crawler0",
-              "model": "Digger Crawler",
-              "name": "Sand Crawler",
-              "passengers": "30",
-              "vehicle_class": "wheeled",
+              "model": "Model: Digger Crawler",
+              "name": "Name: Sand Crawler",
+              "passengers": "Passengers: 30",
+              "vehicle_class": "Class: wheeled",
             },
             "id": "Sand Crawler0",
             "isFav": false,
-            "model": "Digger Crawler",
-            "name": "Sand Crawler",
-            "passengers": "30",
+            "model": "Model: Digger Crawler",
+            "name": "Name: Sand Crawler",
+            "passengers": "Passengers: 30",
             "toggleFavorites": undefined,
-            "vehicle_class": "wheeled",
+            "vehicle_class": "Class: wheeled",
           },
           "ref": null,
           "rendered": null,

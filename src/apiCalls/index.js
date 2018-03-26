@@ -22,10 +22,10 @@ export const getPeopleData = async url => {
     const homeworld = await getData(person.homeworld);
     const species = await getData(person.species);
     return {
-      name: person.name,
-      homeworld: homeworld.name,
-      population: homeworld.population,
-      species: species.name,
+      name: `Name: ${person.name}`,
+      homeworld: `Homeworld: ${homeworld.name}`,
+      population: `Population: ${homeworld.population}`,
+      species: `Species: ${species.name}`,
       id: person.name + index
     };
   });
@@ -39,10 +39,10 @@ export const getPlanetData = async url => {
     const { name, terrain, population, climate, residents } = planet;
     const residentList = await getResidents(residents);
     return {
-      name,
-      terrain,
-      population,
-      climate,
+      name: `Name: ${name}`,
+      terrain: `Terrain: ${terrain}`,
+      population: `Population: ${population}`,
+      climate: `Climate: ${climate}`,
       residents: [...residentList],
       id: name + index
     };
@@ -64,10 +64,10 @@ export const getVehicleData = async url => {
   const vehiclePromises = vehicleData.results.map(async (vehicle, index) => {
     const { name, model, vehicle_class, passengers } = vehicle;
     return {
-      name,
-      model,
-      vehicle_class,
-      passengers,
+      name: `Name: ${name}`,
+      model: `Model: ${model}`,
+      vehicle_class: `Class: ${vehicle_class}`,
+      passengers: `Passengers: ${passengers}`,
       id: name + index
     };
   });
@@ -80,12 +80,12 @@ export const getStarshipData = async url => {
   const starshipPromises = starshipData.results.map(async (ship, index) => {
     const { name, model, starship_class, passengers, crew, length } = ship;
     return {
-      name,
-      model,
-      starship_class,
-      passengers,
-      crew,
-      length,
+      name: `Name: ${name}`,
+      model: `Model: ${model}`,
+      starship_class: `Class: ${starship_class}`,
+      passengers: `Passengers: ${passengers}`,
+      crew: `Crew: ${crew}`,
+      length: `Length: ${length}m/s`,
       id: name + index
     };
   });

@@ -47,25 +47,25 @@ export const mockApiPeople = {
 
 export const mockCleanPeople = [
   {
-    homeworld: undefined,
+    homeworld: 'Homeworld: undefined',
     id: 'Luke Skywalker0',
-    name: 'Luke Skywalker',
-    population: undefined,
-    species: undefined
+    name: 'Name: Luke Skywalker',
+    population: 'Population: undefined',
+    species: 'Species: undefined'
   },
   {
-    homeworld: undefined,
+    homeworld: 'Homeworld: undefined',
     id: 'C-3PO1',
-    name: 'C-3PO',
-    population: undefined,
-    species: undefined
+    name: 'Name: C-3PO',
+    population: 'Population: undefined',
+    species: 'Species: undefined'
   },
   {
-    homeworld: undefined,
+    homeworld: 'Homeworld: undefined',
     id: 'Obi-Wan Kenobi2',
-    name: 'Obi-Wan Kenobi',
-    population: undefined,
-    species: undefined
+    name: 'Name: Obi-Wan Kenobi',
+    population: 'Population: undefined',
+    species: 'Species: undefined'
   }
 ];
 
@@ -112,28 +112,28 @@ export const mockPlanetData = {
 
 export const mockCleanPlanets = [
   {
-    climate: 'arid',
+    climate: 'Climate: arid',
     id: 'Tatooine0',
-    name: 'Tatooine',
-    population: '200000',
+    name: 'Name: Tatooine',
+    population: 'Population: 200000',
     residents: [{ name: undefined }],
-    terrain: 'desert'
+    terrain: 'Terrain: desert'
   },
   {
-    climate: 'arid',
+    climate: 'Climate: arid',
     id: 'Tatooine1',
-    name: 'Tatooine',
-    population: '200000',
+    name: 'Name: Tatooine',
+    population: 'Population: 200000',
     residents: [{ name: undefined }],
-    terrain: 'desert'
+    terrain: 'Terrain: desert'
   },
   {
-    climate: 'arid',
+    climate: 'Climate: arid',
     id: 'Tatooine2',
-    name: 'Tatooine',
-    population: '200000',
+    name: 'Name: Tatooine',
+    population: 'Population: 200000',
     residents: [{ name: undefined }],
-    terrain: 'desert'
+    terrain: 'Terrain: desert'
   }
 ];
 
@@ -169,10 +169,10 @@ export const mockVehicleData = {
 export const mockCleanVehicle = [
   {
     id: 'Sand Crawler0',
-    model: 'Digger Crawler',
-    name: 'Sand Crawler',
-    passengers: '30',
-    vehicle_class: 'wheeled'
+    model: 'Model: Digger Crawler',
+    name: 'Name: Sand Crawler',
+    passengers: 'Passengers: 30',
+    vehicle_class: 'Class: wheeled'
   }
 ];
 
@@ -253,12 +253,12 @@ export const mockStarshipData = {
 
 export const mockCleanStarship = [
   {
-    crew: '279144',
+    crew: 'Crew: 279144',
     id: 'Executor0',
-    length: '19000',
-    model: 'Executor-class star dreadnought',
-    name: 'Executor',
-    passengers: '38000',
-    starship_class: 'Star dreadnought'
+    length: 'Length: 19000m/s',
+    model: 'Model: Executor-class star dreadnought',
+    name: 'Name: Executor',
+    passengers: 'Passengers: 38000',
+    starship_class: 'Class: Star dreadnought'
   }
 ];

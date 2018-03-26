@@ -33,13 +33,13 @@ ShallowWrapper {
     starships={
         Array [
             Object {
-              "crew": "279144",
+              "crew": "Crew: 279144",
               "id": "Executor0",
-              "length": "19000",
-              "model": "Executor-class star dreadnought",
-              "name": "Executor",
-              "passengers": "38000",
-              "starship_class": "Star dreadnought",
+              "length": "Length: 19000m/s",
+              "model": "Model: Executor-class star dreadnought",
+              "name": "Name: Executor",
+              "passengers": "Passengers: 38000",
+              "starship_class": "Class: Star dreadnought",
             },
           ]
     }
@@ -57,70 +57,54 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          starships cards
-</h1>,
-        Array [
-          <Card
-            cardData={
-                        Object {
-                                    "crew": "279144",
-                                    "id": "Executor0",
-                                    "length": "19000",
-                                    "model": "Executor-class star dreadnought",
-                                    "name": "Executor",
-                                    "passengers": "38000",
-                                    "starship_class": "Star dreadnought",
-                                  }
-            }
-            crew="279144"
-            id="Executor0"
-            isFav={false}
-            length="19000"
-            model="Executor-class star dreadnought"
-            name="Executor"
-            passengers="38000"
-            starship_class="Star dreadnought"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "crew": "Crew: 279144",
+                              "id": "Executor0",
+                              "length": "Length: 19000m/s",
+                              "model": "Model: Executor-class star dreadnought",
+                              "name": "Name: Executor",
+                              "passengers": "Passengers: 38000",
+                              "starship_class": "Class: Star dreadnought",
+                            }
+          }
+          crew="Crew: 279144"
+          id="Executor0"
+          isFav={false}
+          length="Length: 19000m/s"
+          model="Model: Executor-class star dreadnought"
+          name="Name: Executor"
+          passengers="Passengers: 38000"
+          starship_class="Class: Star dreadnought"
+          toggleFavorites={undefined}
 />,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "starships cards",
-        },
-        "ref": null,
-        "rendered": "starships cards",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": "Executor0",
+        "key": "Name: Executor0",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "crew": "279144",
+            "crew": "Crew: 279144",
             "id": "Executor0",
-            "length": "19000",
-            "model": "Executor-class star dreadnought",
-            "name": "Executor",
-            "passengers": "38000",
-            "starship_class": "Star dreadnought",
+            "length": "Length: 19000m/s",
+            "model": "Model: Executor-class star dreadnought",
+            "name": "Name: Executor",
+            "passengers": "Passengers: 38000",
+            "starship_class": "Class: Star dreadnought",
           },
-          "crew": "279144",
+          "crew": "Crew: 279144",
           "id": "Executor0",
           "isFav": false,
-          "length": "19000",
-          "model": "Executor-class star dreadnought",
-          "name": "Executor",
-          "passengers": "38000",
-          "starship_class": "Star dreadnought",
+          "length": "Length: 19000m/s",
+          "model": "Model: Executor-class star dreadnought",
+          "name": "Name: Executor",
+          "passengers": "Passengers: 38000",
+          "starship_class": "Class: Star dreadnought",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -137,70 +121,54 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            starships cards
-</h1>,
-          Array [
-            <Card
-              cardData={
-                            Object {
-                                          "crew": "279144",
-                                          "id": "Executor0",
-                                          "length": "19000",
-                                          "model": "Executor-class star dreadnought",
-                                          "name": "Executor",
-                                          "passengers": "38000",
-                                          "starship_class": "Star dreadnought",
-                                        }
-              }
-              crew="279144"
-              id="Executor0"
-              isFav={false}
-              length="19000"
-              model="Executor-class star dreadnought"
-              name="Executor"
-              passengers="38000"
-              starship_class="Star dreadnought"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "crew": "Crew: 279144",
+                                    "id": "Executor0",
+                                    "length": "Length: 19000m/s",
+                                    "model": "Model: Executor-class star dreadnought",
+                                    "name": "Name: Executor",
+                                    "passengers": "Passengers: 38000",
+                                    "starship_class": "Class: Star dreadnought",
+                                  }
+            }
+            crew="Crew: 279144"
+            id="Executor0"
+            isFav={false}
+            length="Length: 19000m/s"
+            model="Model: Executor-class star dreadnought"
+            name="Name: Executor"
+            passengers="Passengers: 38000"
+            starship_class="Class: Star dreadnought"
+            toggleFavorites={undefined}
 />,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "starships cards",
-          },
-          "ref": null,
-          "rendered": "starships cards",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": "Executor0",
+          "key": "Name: Executor0",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "crew": "279144",
+              "crew": "Crew: 279144",
               "id": "Executor0",
-              "length": "19000",
-              "model": "Executor-class star dreadnought",
-              "name": "Executor",
-              "passengers": "38000",
-              "starship_class": "Star dreadnought",
+              "length": "Length: 19000m/s",
+              "model": "Model: Executor-class star dreadnought",
+              "name": "Name: Executor",
+              "passengers": "Passengers: 38000",
+              "starship_class": "Class: Star dreadnought",
             },
-            "crew": "279144",
+            "crew": "Crew: 279144",
             "id": "Executor0",
             "isFav": false,
-            "length": "19000",
-            "model": "Executor-class star dreadnought",
-            "name": "Executor",
-            "passengers": "38000",
-            "starship_class": "Star dreadnought",
+            "length": "Length: 19000m/s",
+            "model": "Model: Executor-class star dreadnought",
+            "name": "Name: Executor",
+            "passengers": "Passengers: 38000",
+            "starship_class": "Class: Star dreadnought",
             "toggleFavorites": undefined,
           },
           "ref": null,

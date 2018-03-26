@@ -33,25 +33,25 @@ ShallowWrapper {
     people={
         Array [
             Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "Luke Skywalker0",
-              "name": "Luke Skywalker",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: Luke Skywalker",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
             Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "C-3PO1",
-              "name": "C-3PO",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: C-3PO",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
             Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "Obi-Wan Kenobi2",
-              "name": "Obi-Wan Kenobi",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: Obi-Wan Kenobi",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
           ]
     }
@@ -69,98 +69,82 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          people cards
-</h1>,
-        Array [
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": undefined,
-                                    "id": "Luke Skywalker0",
-                                    "name": "Luke Skywalker",
-                                    "population": undefined,
-                                    "species": undefined,
-                                  }
-            }
-            homeworld={undefined}
-            id="Luke Skywalker0"
-            isFav={false}
-            name="Luke Skywalker"
-            population={undefined}
-            species={undefined}
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Homeworld: undefined",
+                              "id": "Luke Skywalker0",
+                              "name": "Name: Luke Skywalker",
+                              "population": "Population: undefined",
+                              "species": "Species: undefined",
+                            }
+          }
+          homeworld="Homeworld: undefined"
+          id="Luke Skywalker0"
+          isFav={false}
+          name="Name: Luke Skywalker"
+          population="Population: undefined"
+          species="Species: undefined"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": undefined,
-                                    "id": "C-3PO1",
-                                    "name": "C-3PO",
-                                    "population": undefined,
-                                    "species": undefined,
-                                  }
-            }
-            homeworld={undefined}
-            id="C-3PO1"
-            isFav={false}
-            name="C-3PO"
-            population={undefined}
-            species={undefined}
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Homeworld: undefined",
+                              "id": "C-3PO1",
+                              "name": "Name: C-3PO",
+                              "population": "Population: undefined",
+                              "species": "Species: undefined",
+                            }
+          }
+          homeworld="Homeworld: undefined"
+          id="C-3PO1"
+          isFav={false}
+          name="Name: C-3PO"
+          population="Population: undefined"
+          species="Species: undefined"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "homeworld": undefined,
-                                    "id": "Obi-Wan Kenobi2",
-                                    "name": "Obi-Wan Kenobi",
-                                    "population": undefined,
-                                    "species": undefined,
-                                  }
-            }
-            homeworld={undefined}
-            id="Obi-Wan Kenobi2"
-            isFav={false}
-            name="Obi-Wan Kenobi"
-            population={undefined}
-            species={undefined}
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "homeworld": "Homeworld: undefined",
+                              "id": "Obi-Wan Kenobi2",
+                              "name": "Name: Obi-Wan Kenobi",
+                              "population": "Population: undefined",
+                              "species": "Species: undefined",
+                            }
+          }
+          homeworld="Homeworld: undefined"
+          id="Obi-Wan Kenobi2"
+          isFav={false}
+          name="Name: Obi-Wan Kenobi"
+          population="Population: undefined"
+          species="Species: undefined"
+          toggleFavorites={undefined}
 />,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "people cards",
-        },
-        "ref": null,
-        "rendered": "people cards",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
         "key": "Luke Skywalker0",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "Luke Skywalker0",
-            "name": "Luke Skywalker",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: Luke Skywalker",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
           },
-          "homeworld": undefined,
+          "homeworld": "Homeworld: undefined",
           "id": "Luke Skywalker0",
           "isFav": false,
-          "name": "Luke Skywalker",
-          "population": undefined,
-          "species": undefined,
+          "name": "Name: Luke Skywalker",
+          "population": "Population: undefined",
+          "species": "Species: undefined",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -173,18 +157,18 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "C-3PO1",
-            "name": "C-3PO",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: C-3PO",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
           },
-          "homeworld": undefined,
+          "homeworld": "Homeworld: undefined",
           "id": "C-3PO1",
           "isFav": false,
-          "name": "C-3PO",
-          "population": undefined,
-          "species": undefined,
+          "name": "Name: C-3PO",
+          "population": "Population: undefined",
+          "species": "Species: undefined",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -197,18 +181,18 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "Obi-Wan Kenobi2",
-            "name": "Obi-Wan Kenobi",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: Obi-Wan Kenobi",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
           },
-          "homeworld": undefined,
+          "homeworld": "Homeworld: undefined",
           "id": "Obi-Wan Kenobi2",
           "isFav": false,
-          "name": "Obi-Wan Kenobi",
-          "population": undefined,
-          "species": undefined,
+          "name": "Name: Obi-Wan Kenobi",
+          "population": "Population: undefined",
+          "species": "Species: undefined",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -225,98 +209,82 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            people cards
-</h1>,
-          Array [
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": undefined,
-                                          "id": "Luke Skywalker0",
-                                          "name": "Luke Skywalker",
-                                          "population": undefined,
-                                          "species": undefined,
-                                        }
-              }
-              homeworld={undefined}
-              id="Luke Skywalker0"
-              isFav={false}
-              name="Luke Skywalker"
-              population={undefined}
-              species={undefined}
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Homeworld: undefined",
+                                    "id": "Luke Skywalker0",
+                                    "name": "Name: Luke Skywalker",
+                                    "population": "Population: undefined",
+                                    "species": "Species: undefined",
+                                  }
+            }
+            homeworld="Homeworld: undefined"
+            id="Luke Skywalker0"
+            isFav={false}
+            name="Name: Luke Skywalker"
+            population="Population: undefined"
+            species="Species: undefined"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": undefined,
-                                          "id": "C-3PO1",
-                                          "name": "C-3PO",
-                                          "population": undefined,
-                                          "species": undefined,
-                                        }
-              }
-              homeworld={undefined}
-              id="C-3PO1"
-              isFav={false}
-              name="C-3PO"
-              population={undefined}
-              species={undefined}
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Homeworld: undefined",
+                                    "id": "C-3PO1",
+                                    "name": "Name: C-3PO",
+                                    "population": "Population: undefined",
+                                    "species": "Species: undefined",
+                                  }
+            }
+            homeworld="Homeworld: undefined"
+            id="C-3PO1"
+            isFav={false}
+            name="Name: C-3PO"
+            population="Population: undefined"
+            species="Species: undefined"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "homeworld": undefined,
-                                          "id": "Obi-Wan Kenobi2",
-                                          "name": "Obi-Wan Kenobi",
-                                          "population": undefined,
-                                          "species": undefined,
-                                        }
-              }
-              homeworld={undefined}
-              id="Obi-Wan Kenobi2"
-              isFav={false}
-              name="Obi-Wan Kenobi"
-              population={undefined}
-              species={undefined}
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "homeworld": "Homeworld: undefined",
+                                    "id": "Obi-Wan Kenobi2",
+                                    "name": "Name: Obi-Wan Kenobi",
+                                    "population": "Population: undefined",
+                                    "species": "Species: undefined",
+                                  }
+            }
+            homeworld="Homeworld: undefined"
+            id="Obi-Wan Kenobi2"
+            isFav={false}
+            name="Name: Obi-Wan Kenobi"
+            population="Population: undefined"
+            species="Species: undefined"
+            toggleFavorites={undefined}
 />,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "people cards",
-          },
-          "ref": null,
-          "rendered": "people cards",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
           "key": "Luke Skywalker0",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "Luke Skywalker0",
-              "name": "Luke Skywalker",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: Luke Skywalker",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "Luke Skywalker0",
             "isFav": false,
-            "name": "Luke Skywalker",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: Luke Skywalker",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
             "toggleFavorites": undefined,
           },
           "ref": null,
@@ -329,18 +297,18 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "C-3PO1",
-              "name": "C-3PO",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: C-3PO",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "C-3PO1",
             "isFav": false,
-            "name": "C-3PO",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: C-3PO",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
             "toggleFavorites": undefined,
           },
           "ref": null,
@@ -353,18 +321,18 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "homeworld": undefined,
+              "homeworld": "Homeworld: undefined",
               "id": "Obi-Wan Kenobi2",
-              "name": "Obi-Wan Kenobi",
-              "population": undefined,
-              "species": undefined,
+              "name": "Name: Obi-Wan Kenobi",
+              "population": "Population: undefined",
+              "species": "Species: undefined",
             },
-            "homeworld": undefined,
+            "homeworld": "Homeworld: undefined",
             "id": "Obi-Wan Kenobi2",
             "isFav": false,
-            "name": "Obi-Wan Kenobi",
-            "population": undefined,
-            "species": undefined,
+            "name": "Name: Obi-Wan Kenobi",
+            "population": "Population: undefined",
+            "species": "Species: undefined",
             "toggleFavorites": undefined,
           },
           "ref": null,

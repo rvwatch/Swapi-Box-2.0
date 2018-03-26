@@ -33,40 +33,40 @@ ShallowWrapper {
     planets={
         Array [
             Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine0",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
             Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine1",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
             Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine2",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
           ]
     }
@@ -84,144 +84,128 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          planets cards
-</h1>,
-        Array [
-          <Card
-            cardData={
-                        Object {
-                                    "climate": "arid",
-                                    "id": "Tatooine0",
-                                    "name": "Tatooine",
-                                    "population": "200000",
-                                    "residents": Array [
-                                      Object {
-                                        "name": undefined,
-                                      },
-                                    ],
-                                    "terrain": "desert",
-                                  }
-            }
-            climate="arid"
-            id="Tatooine0"
-            isFav={false}
-            name="Tatooine"
-            population="200000"
-            residents={
-                        Array [
-                                    Object {
-                                      "name": undefined,
-                                    },
-                                  ]
-            }
-            terrain="desert"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "climate": "Climate: arid",
+                              "id": "Tatooine0",
+                              "name": "Name: Tatooine",
+                              "population": "Population: 200000",
+                              "residents": Array [
+                                Object {
+                                  "name": undefined,
+                                },
+                              ],
+                              "terrain": "Terrain: desert",
+                            }
+          }
+          climate="Climate: arid"
+          id="Tatooine0"
+          isFav={false}
+          name="Name: Tatooine"
+          population="Population: 200000"
+          residents={
+                    Array [
+                              Object {
+                                "name": undefined,
+                              },
+                            ]
+          }
+          terrain="Terrain: desert"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "climate": "arid",
-                                    "id": "Tatooine1",
-                                    "name": "Tatooine",
-                                    "population": "200000",
-                                    "residents": Array [
-                                      Object {
-                                        "name": undefined,
-                                      },
-                                    ],
-                                    "terrain": "desert",
-                                  }
-            }
-            climate="arid"
-            id="Tatooine1"
-            isFav={false}
-            name="Tatooine"
-            population="200000"
-            residents={
-                        Array [
-                                    Object {
-                                      "name": undefined,
-                                    },
-                                  ]
-            }
-            terrain="desert"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "climate": "Climate: arid",
+                              "id": "Tatooine1",
+                              "name": "Name: Tatooine",
+                              "population": "Population: 200000",
+                              "residents": Array [
+                                Object {
+                                  "name": undefined,
+                                },
+                              ],
+                              "terrain": "Terrain: desert",
+                            }
+          }
+          climate="Climate: arid"
+          id="Tatooine1"
+          isFav={false}
+          name="Name: Tatooine"
+          population="Population: 200000"
+          residents={
+                    Array [
+                              Object {
+                                "name": undefined,
+                              },
+                            ]
+          }
+          terrain="Terrain: desert"
+          toggleFavorites={undefined}
 />,
-          <Card
-            cardData={
-                        Object {
-                                    "climate": "arid",
-                                    "id": "Tatooine2",
-                                    "name": "Tatooine",
-                                    "population": "200000",
-                                    "residents": Array [
-                                      Object {
-                                        "name": undefined,
-                                      },
-                                    ],
-                                    "terrain": "desert",
-                                  }
-            }
-            climate="arid"
-            id="Tatooine2"
-            isFav={false}
-            name="Tatooine"
-            population="200000"
-            residents={
-                        Array [
-                                    Object {
-                                      "name": undefined,
-                                    },
-                                  ]
-            }
-            terrain="desert"
-            toggleFavorites={undefined}
+        <Card
+          cardData={
+                    Object {
+                              "climate": "Climate: arid",
+                              "id": "Tatooine2",
+                              "name": "Name: Tatooine",
+                              "population": "Population: 200000",
+                              "residents": Array [
+                                Object {
+                                  "name": undefined,
+                                },
+                              ],
+                              "terrain": "Terrain: desert",
+                            }
+          }
+          climate="Climate: arid"
+          id="Tatooine2"
+          isFav={false}
+          name="Name: Tatooine"
+          population="Population: 200000"
+          residents={
+                    Array [
+                              Object {
+                                "name": undefined,
+                              },
+                            ]
+          }
+          terrain="Terrain: desert"
+          toggleFavorites={undefined}
 />,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "planets cards",
-        },
-        "ref": null,
-        "rendered": "planets cards",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": "Tatooine0",
+        "key": "Name: Tatooine0",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine0",
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
           },
-          "climate": "arid",
+          "climate": "Climate: arid",
           "id": "Tatooine0",
           "isFav": false,
-          "name": "Tatooine",
-          "population": "200000",
+          "name": "Name: Tatooine",
+          "population": "Population: 200000",
           "residents": Array [
             Object {
               "name": undefined,
             },
           ],
-          "terrain": "desert",
+          "terrain": "Terrain: desert",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -230,32 +214,32 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Tatooine1",
+        "key": "Name: Tatooine1",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine1",
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
           },
-          "climate": "arid",
+          "climate": "Climate: arid",
           "id": "Tatooine1",
           "isFav": false,
-          "name": "Tatooine",
-          "population": "200000",
+          "name": "Name: Tatooine",
+          "population": "Population: 200000",
           "residents": Array [
             Object {
               "name": undefined,
             },
           ],
-          "terrain": "desert",
+          "terrain": "Terrain: desert",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -264,32 +248,32 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Tatooine2",
+        "key": "Name: Tatooine2",
         "nodeType": "function",
         "props": Object {
           "cardData": Object {
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine2",
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
           },
-          "climate": "arid",
+          "climate": "Climate: arid",
           "id": "Tatooine2",
           "isFav": false,
-          "name": "Tatooine",
-          "population": "200000",
+          "name": "Name: Tatooine",
+          "population": "Population: 200000",
           "residents": Array [
             Object {
               "name": undefined,
             },
           ],
-          "terrain": "desert",
+          "terrain": "Terrain: desert",
           "toggleFavorites": undefined,
         },
         "ref": null,
@@ -306,144 +290,128 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            planets cards
-</h1>,
-          Array [
-            <Card
-              cardData={
-                            Object {
-                                          "climate": "arid",
-                                          "id": "Tatooine0",
-                                          "name": "Tatooine",
-                                          "population": "200000",
-                                          "residents": Array [
-                                            Object {
-                                              "name": undefined,
-                                            },
-                                          ],
-                                          "terrain": "desert",
-                                        }
-              }
-              climate="arid"
-              id="Tatooine0"
-              isFav={false}
-              name="Tatooine"
-              population="200000"
-              residents={
-                            Array [
-                                          Object {
-                                            "name": undefined,
-                                          },
-                                        ]
-              }
-              terrain="desert"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "Climate: arid",
+                                    "id": "Tatooine0",
+                                    "name": "Name: Tatooine",
+                                    "population": "Population: 200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "Terrain: desert",
+                                  }
+            }
+            climate="Climate: arid"
+            id="Tatooine0"
+            isFav={false}
+            name="Name: Tatooine"
+            population="Population: 200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="Terrain: desert"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "climate": "arid",
-                                          "id": "Tatooine1",
-                                          "name": "Tatooine",
-                                          "population": "200000",
-                                          "residents": Array [
-                                            Object {
-                                              "name": undefined,
-                                            },
-                                          ],
-                                          "terrain": "desert",
-                                        }
-              }
-              climate="arid"
-              id="Tatooine1"
-              isFav={false}
-              name="Tatooine"
-              population="200000"
-              residents={
-                            Array [
-                                          Object {
-                                            "name": undefined,
-                                          },
-                                        ]
-              }
-              terrain="desert"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "Climate: arid",
+                                    "id": "Tatooine1",
+                                    "name": "Name: Tatooine",
+                                    "population": "Population: 200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "Terrain: desert",
+                                  }
+            }
+            climate="Climate: arid"
+            id="Tatooine1"
+            isFav={false}
+            name="Name: Tatooine"
+            population="Population: 200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="Terrain: desert"
+            toggleFavorites={undefined}
 />,
-            <Card
-              cardData={
-                            Object {
-                                          "climate": "arid",
-                                          "id": "Tatooine2",
-                                          "name": "Tatooine",
-                                          "population": "200000",
-                                          "residents": Array [
-                                            Object {
-                                              "name": undefined,
-                                            },
-                                          ],
-                                          "terrain": "desert",
-                                        }
-              }
-              climate="arid"
-              id="Tatooine2"
-              isFav={false}
-              name="Tatooine"
-              population="200000"
-              residents={
-                            Array [
-                                          Object {
-                                            "name": undefined,
-                                          },
-                                        ]
-              }
-              terrain="desert"
-              toggleFavorites={undefined}
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "Climate: arid",
+                                    "id": "Tatooine2",
+                                    "name": "Name: Tatooine",
+                                    "population": "Population: 200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "Terrain: desert",
+                                  }
+            }
+            climate="Climate: arid"
+            id="Tatooine2"
+            isFav={false}
+            name="Name: Tatooine"
+            population="Population: 200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="Terrain: desert"
+            toggleFavorites={undefined}
 />,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "planets cards",
-          },
-          "ref": null,
-          "rendered": "planets cards",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": "Tatooine0",
+          "key": "Name: Tatooine0",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine0",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine0",
             "isFav": false,
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
             "toggleFavorites": undefined,
           },
           "ref": null,
@@ -452,32 +420,32 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Tatooine1",
+          "key": "Name: Tatooine1",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine1",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine1",
             "isFav": false,
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
             "toggleFavorites": undefined,
           },
           "ref": null,
@@ -486,32 +454,32 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Tatooine2",
+          "key": "Name: Tatooine2",
           "nodeType": "function",
           "props": Object {
             "cardData": Object {
-              "climate": "arid",
+              "climate": "Climate: arid",
               "id": "Tatooine2",
-              "name": "Tatooine",
-              "population": "200000",
+              "name": "Name: Tatooine",
+              "population": "Population: 200000",
               "residents": Array [
                 Object {
                   "name": undefined,
                 },
               ],
-              "terrain": "desert",
+              "terrain": "Terrain: desert",
             },
-            "climate": "arid",
+            "climate": "Climate: arid",
             "id": "Tatooine2",
             "isFav": false,
-            "name": "Tatooine",
-            "population": "200000",
+            "name": "Name: Tatooine",
+            "population": "Population: 200000",
             "residents": Array [
               Object {
                 "name": undefined,
               },
             ],
-            "terrain": "desert",
+            "terrain": "Terrain: desert",
             "toggleFavorites": undefined,
           },
           "ref": null,
