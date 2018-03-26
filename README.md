@@ -26,7 +26,7 @@ npm start
 
 ## Example Use
 
-![Swapi-Box Screen Shot](https://imgur.com/Tf6cusj)
+![Swapi-Box Screen Shot](https://i.imgur.com/Tf6cusj.png)
 
 ## API Reference
 
