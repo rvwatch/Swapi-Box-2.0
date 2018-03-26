@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "enzyme-adapter-react-16": "^1.1.1",
-    "eslint": "^4.17.0",
-    "eslintIgnore": "/src/App/Components"
+    "eslint": "^4.17.0"
   }
 }
