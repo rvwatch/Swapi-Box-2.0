@@ -1,5 +1,5 @@
 import React from 'react';
-import { array, func, string, object, bool, number } from 'prop-types';
+import { array, func, string, object, bool, PropTypes } from 'prop-types';
 import './Card.css';
 import FavButton from '../Buttons';
 
@@ -53,7 +53,7 @@ const Card = ({
 Card.propTypes = {
   name: string,
   homeworld: string,
-  population: string,
+  population: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   species: string,
   climate: string,
   terrain: string,
@@ -64,7 +64,7 @@ Card.propTypes = {
   crew: string,
   length: string,
   starship_class: string,
-  id: string,
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   toggleFavorites: func,
   cardData: object,
   isFav: bool
