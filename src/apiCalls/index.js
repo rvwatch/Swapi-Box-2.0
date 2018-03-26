@@ -22,7 +22,7 @@ export const getPeopleData = async url => {
     const homeworld = await getData(person.homeworld);
     const species = await getData(person.species);
     return {
-      name: `Name: ${person.name}`,
+      name: `<h3>Name:</h3> ${person.name}`,
       homeworld: `Homeworld: ${homeworld.name}`,
       population: `Population: ${homeworld.population}`,
       species: `Species: ${species.name}`,
@@ -39,7 +39,7 @@ export const getPlanetData = async url => {
     const { name, terrain, population, climate, residents } = planet;
     const residentList = await getResidents(residents);
     return {
-      name: `Name: ${name}`,
+      name: `<h3>Name:</h3> ${name}`,
       terrain: `Terrain: ${terrain}`,
       population: `Population: ${population}`,
       climate: `Climate: ${climate}`,
@@ -64,7 +64,7 @@ export const getVehicleData = async url => {
   const vehiclePromises = vehicleData.results.map(async (vehicle, index) => {
     const { name, model, vehicle_class, passengers } = vehicle;
     return {
-      name: `Name: ${name}`,
+      name: `<h3>Name:</h3> ${name}`,
       model: `Model: ${model}`,
       vehicle_class: `Class: ${vehicle_class}`,
       passengers: `Passengers: ${passengers}`,
