@@ -1,0 +1,534 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Planets  renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Planets
+    favorites={
+        Array [
+            Object {
+              "homeworld": "Tatooine",
+              "id": 1,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+            Object {
+              "homeworld": "Tatooine",
+              "id": 2,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+            Object {
+              "homeworld": "Tatooine",
+              "id": 3,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+          ]
+    }
+    planets={
+        Array [
+            Object {
+              "climate": "arid",
+              "id": "Tatooine0",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+            Object {
+              "climate": "arid",
+              "id": "Tatooine1",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+            Object {
+              "climate": "arid",
+              "id": "Tatooine2",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          planets cards
+</h1>,
+        Array [
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "arid",
+                                    "id": "Tatooine0",
+                                    "name": "Tatooine",
+                                    "population": "200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "desert",
+                                  }
+            }
+            climate="arid"
+            id="Tatooine0"
+            isFav={false}
+            name="Tatooine"
+            population="200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="desert"
+            toggleFavorites={undefined}
+/>,
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "arid",
+                                    "id": "Tatooine1",
+                                    "name": "Tatooine",
+                                    "population": "200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "desert",
+                                  }
+            }
+            climate="arid"
+            id="Tatooine1"
+            isFav={false}
+            name="Tatooine"
+            population="200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="desert"
+            toggleFavorites={undefined}
+/>,
+          <Card
+            cardData={
+                        Object {
+                                    "climate": "arid",
+                                    "id": "Tatooine2",
+                                    "name": "Tatooine",
+                                    "population": "200000",
+                                    "residents": Array [
+                                      Object {
+                                        "name": undefined,
+                                      },
+                                    ],
+                                    "terrain": "desert",
+                                  }
+            }
+            climate="arid"
+            id="Tatooine2"
+            isFav={false}
+            name="Tatooine"
+            population="200000"
+            residents={
+                        Array [
+                                    Object {
+                                      "name": undefined,
+                                    },
+                                  ]
+            }
+            terrain="desert"
+            toggleFavorites={undefined}
+/>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "planets cards",
+        },
+        "ref": null,
+        "rendered": "planets cards",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "Tatooine0",
+        "nodeType": "function",
+        "props": Object {
+          "cardData": Object {
+            "climate": "arid",
+            "id": "Tatooine0",
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+          },
+          "climate": "arid",
+          "id": "Tatooine0",
+          "isFav": false,
+          "name": "Tatooine",
+          "population": "200000",
+          "residents": Array [
+            Object {
+              "name": undefined,
+            },
+          ],
+          "terrain": "desert",
+          "toggleFavorites": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Tatooine1",
+        "nodeType": "function",
+        "props": Object {
+          "cardData": Object {
+            "climate": "arid",
+            "id": "Tatooine1",
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+          },
+          "climate": "arid",
+          "id": "Tatooine1",
+          "isFav": false,
+          "name": "Tatooine",
+          "population": "200000",
+          "residents": Array [
+            Object {
+              "name": undefined,
+            },
+          ],
+          "terrain": "desert",
+          "toggleFavorites": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Tatooine2",
+        "nodeType": "function",
+        "props": Object {
+          "cardData": Object {
+            "climate": "arid",
+            "id": "Tatooine2",
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+          },
+          "climate": "arid",
+          "id": "Tatooine2",
+          "isFav": false,
+          "name": "Tatooine",
+          "population": "200000",
+          "residents": Array [
+            Object {
+              "name": undefined,
+            },
+          ],
+          "terrain": "desert",
+          "toggleFavorites": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            planets cards
+</h1>,
+          Array [
+            <Card
+              cardData={
+                            Object {
+                                          "climate": "arid",
+                                          "id": "Tatooine0",
+                                          "name": "Tatooine",
+                                          "population": "200000",
+                                          "residents": Array [
+                                            Object {
+                                              "name": undefined,
+                                            },
+                                          ],
+                                          "terrain": "desert",
+                                        }
+              }
+              climate="arid"
+              id="Tatooine0"
+              isFav={false}
+              name="Tatooine"
+              population="200000"
+              residents={
+                            Array [
+                                          Object {
+                                            "name": undefined,
+                                          },
+                                        ]
+              }
+              terrain="desert"
+              toggleFavorites={undefined}
+/>,
+            <Card
+              cardData={
+                            Object {
+                                          "climate": "arid",
+                                          "id": "Tatooine1",
+                                          "name": "Tatooine",
+                                          "population": "200000",
+                                          "residents": Array [
+                                            Object {
+                                              "name": undefined,
+                                            },
+                                          ],
+                                          "terrain": "desert",
+                                        }
+              }
+              climate="arid"
+              id="Tatooine1"
+              isFav={false}
+              name="Tatooine"
+              population="200000"
+              residents={
+                            Array [
+                                          Object {
+                                            "name": undefined,
+                                          },
+                                        ]
+              }
+              terrain="desert"
+              toggleFavorites={undefined}
+/>,
+            <Card
+              cardData={
+                            Object {
+                                          "climate": "arid",
+                                          "id": "Tatooine2",
+                                          "name": "Tatooine",
+                                          "population": "200000",
+                                          "residents": Array [
+                                            Object {
+                                              "name": undefined,
+                                            },
+                                          ],
+                                          "terrain": "desert",
+                                        }
+              }
+              climate="arid"
+              id="Tatooine2"
+              isFav={false}
+              name="Tatooine"
+              population="200000"
+              residents={
+                            Array [
+                                          Object {
+                                            "name": undefined,
+                                          },
+                                        ]
+              }
+              terrain="desert"
+              toggleFavorites={undefined}
+/>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "planets cards",
+          },
+          "ref": null,
+          "rendered": "planets cards",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "Tatooine0",
+          "nodeType": "function",
+          "props": Object {
+            "cardData": Object {
+              "climate": "arid",
+              "id": "Tatooine0",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+            "climate": "arid",
+            "id": "Tatooine0",
+            "isFav": false,
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+            "toggleFavorites": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Tatooine1",
+          "nodeType": "function",
+          "props": Object {
+            "cardData": Object {
+              "climate": "arid",
+              "id": "Tatooine1",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+            "climate": "arid",
+            "id": "Tatooine1",
+            "isFav": false,
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+            "toggleFavorites": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Tatooine2",
+          "nodeType": "function",
+          "props": Object {
+            "cardData": Object {
+              "climate": "arid",
+              "id": "Tatooine2",
+              "name": "Tatooine",
+              "population": "200000",
+              "residents": Array [
+                Object {
+                  "name": undefined,
+                },
+              ],
+              "terrain": "desert",
+            },
+            "climate": "arid",
+            "id": "Tatooine2",
+            "isFav": false,
+            "name": "Tatooine",
+            "population": "200000",
+            "residents": Array [
+              Object {
+                "name": undefined,
+              },
+            ],
+            "terrain": "desert",
+            "toggleFavorites": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

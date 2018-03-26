@@ -1,0 +1,10 @@
+/* eslint-disable */
+
+.main-wrap {
+  display: block;
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  text-align: center;
+  top: 110px;
+}

@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Starships  renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Starships
+    favorites={
+        Array [
+            Object {
+              "homeworld": "Tatooine",
+              "id": 1,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+            Object {
+              "homeworld": "Tatooine",
+              "id": 2,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+            Object {
+              "homeworld": "Tatooine",
+              "id": 3,
+              "name": "Luke Skywalker",
+              "population": 200000,
+              "species": "Human",
+            },
+          ]
+    }
+    starships={
+        Array [
+            Object {
+              "crew": "279144",
+              "id": "Executor0",
+              "length": "19000",
+              "model": "Executor-class star dreadnought",
+              "name": "Executor",
+              "passengers": "38000",
+              "starship_class": "Star dreadnought",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          starships cards
+</h1>,
+        Array [
+          <Card
+            cardData={
+                        Object {
+                                    "crew": "279144",
+                                    "id": "Executor0",
+                                    "length": "19000",
+                                    "model": "Executor-class star dreadnought",
+                                    "name": "Executor",
+                                    "passengers": "38000",
+                                    "starship_class": "Star dreadnought",
+                                  }
+            }
+            crew="279144"
+            id="Executor0"
+            isFav={false}
+            length="19000"
+            model="Executor-class star dreadnought"
+            name="Executor"
+            passengers="38000"
+            starship_class="Star dreadnought"
+            toggleFavorites={undefined}
+/>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "starships cards",
+        },
+        "ref": null,
+        "rendered": "starships cards",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "Executor0",
+        "nodeType": "function",
+        "props": Object {
+          "cardData": Object {
+            "crew": "279144",
+            "id": "Executor0",
+            "length": "19000",
+            "model": "Executor-class star dreadnought",
+            "name": "Executor",
+            "passengers": "38000",
+            "starship_class": "Star dreadnought",
+          },
+          "crew": "279144",
+          "id": "Executor0",
+          "isFav": false,
+          "length": "19000",
+          "model": "Executor-class star dreadnought",
+          "name": "Executor",
+          "passengers": "38000",
+          "starship_class": "Star dreadnought",
+          "toggleFavorites": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            starships cards
+</h1>,
+          Array [
+            <Card
+              cardData={
+                            Object {
+                                          "crew": "279144",
+                                          "id": "Executor0",
+                                          "length": "19000",
+                                          "model": "Executor-class star dreadnought",
+                                          "name": "Executor",
+                                          "passengers": "38000",
+                                          "starship_class": "Star dreadnought",
+                                        }
+              }
+              crew="279144"
+              id="Executor0"
+              isFav={false}
+              length="19000"
+              model="Executor-class star dreadnought"
+              name="Executor"
+              passengers="38000"
+              starship_class="Star dreadnought"
+              toggleFavorites={undefined}
+/>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "starships cards",
+          },
+          "ref": null,
+          "rendered": "starships cards",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "Executor0",
+          "nodeType": "function",
+          "props": Object {
+            "cardData": Object {
+              "crew": "279144",
+              "id": "Executor0",
+              "length": "19000",
+              "model": "Executor-class star dreadnought",
+              "name": "Executor",
+              "passengers": "38000",
+              "starship_class": "Star dreadnought",
+            },
+            "crew": "279144",
+            "id": "Executor0",
+            "isFav": false,
+            "length": "19000",
+            "model": "Executor-class star dreadnought",
+            "name": "Executor",
+            "passengers": "38000",
+            "starship_class": "Star dreadnought",
+            "toggleFavorites": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
